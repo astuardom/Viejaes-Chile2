@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+body {
+  background-color: #212529;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.custom-carousel {
+  max-width: 68%; /* Ajusta este valor según tus necesidades */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+.carousel-image {
+  border-radius: 15px; /* Ajusta el valor para los bordes redondeados */
+  height: 700px; /* Ajusta la altura para dispositivos grandes */
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 300px; /* Ajusta la altura para dispositivos pequeños */
+  }
+}
+.custom-hr {
+  border-top: 2px solid white;
+}
+
+#quienes-somos {
+  color: white;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.titulos {
+  color: white;
+}
+
+.blockquote {
+  color: white;
+}
+
+.list-unstyled {
+  color: white;
+}
+
+#contacto {
+  color: white;
+}
+
+.img-fluid {
+  width: auto;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.testimonios__container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.testimonios__item {
+  max-width: 300px;
+}
+.testimonios__text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.testimonios__author {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-info {
+  margin-top: 5rem; /* Ajusta este valor según tus necesidades */
+}
+
+.contact-info li {
+  line-height: 1; /* Ajusta este valor para aumentar o disminuir el espacio entre líneas */
+  margin-bottom: 1rem; /* Añadir espacio inferior entre los ítems de la lista */
+}
+
+.navbar-logo {
+  height: 40px; /* Ajusta la altura como desees */
+  width: auto; /* Mantén la proporción de aspecto */
+}
+
+.testimonial-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none; /* Asegúrate de que no haya borde en el contenedor */
+  padding: 0; /* Elimina cualquier padding adicional */
+}
+
+.testimonial-img {
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: 100px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  margin-top: 10px; /* Espacio entre el nombre y la imagen */
+}
+
+.testimonial-footer span {
+  color: white;
+  font-size: 1.2em; /* Aumenta el tamaño del texto del nombre */
+  margin-bottom: 10px; /* Espacio entre el nombre y la imagen */
+}
+
+.blockquote-footer::before {
+  content: none; /* Asegúrate de que no haya contenido antes o después del elemento */
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img-left {
+  width: 40%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.card-body {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-body p strong {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-info {
+  display: flex;
+  background-color: #f7f7f7; /* Color de fondo deseado */
+  align-items: center;
+  padding: 10px;
+  margin-top: 1px;
+  border-radius: 10px; /* Opcional: para bordes redondeados */
+}
+
+.price-info i {
+  margin-right: 5px; /* Espacio entre el ícono y el texto */
+  font-size: 1.2rem;
+}
+
+hr {
+  margin-bottom: 1px;
+}
+
+.price-text {
+  margin: 0;
+  font-size: 1.2rem; /* Tamaño de fuente */
+  font-weight: bold;
+  text-align: right; /* Alineación del texto a la derecha */
+}
+
+footer {
+  text-align: center; /* Centra el contenido horizontalmente */
+  padding: 1rem; /* Añade un poco de espacio alrededor del contenido */
+}
+
+footer .navbar-brand {
+  display: inline-flex;
+  align-items: center; /* Alinea el logo y el texto verticalmente */
+  justify-content: center; /* Alinea el logo y el texto horizontalmente */
+}
+
+footer img {
+  height: 40px; /* Ajusta el tamaño del logo según tus necesidades */
+  width: auto; /* Mantiene la proporción del logo */
+  margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+footer .text-lg {
+  font-size: 1.25rem; /* Ajusta el tamaño del texto según tus necesidades */
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
